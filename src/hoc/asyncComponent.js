@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-
+//this component is used for lazy loading
 const asyncComponent = (importComponent) => {
     return class extends Component{
         state = {
@@ -22,4 +22,4 @@ const asyncComponent = (importComponent) => {
 
 export default asyncComponent;
 
-//this component is used for lazy loading
+
